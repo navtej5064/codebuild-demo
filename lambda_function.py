@@ -9,6 +9,7 @@ def lambda_handler(event, context):
     # more dummy comments to test end to end
     # testing update in CI/CD
     # testing by Navtej
+    # test2
     print(event)
     URL = "http://maps.googleapis.com/maps/api/geocode/json"
     location = event['landmark']
